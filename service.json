@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name": "kmedia_review_demo_service",
+    "script": "./src/serve.js",
+    "output": "./log/output.log",
+    "error": "./log/error.log",
+    "watch": false,
+    "env": {
+		"HTTP_PORT": 8000,
+		"RTMP_PORT": 9000
+	}
+  }]
+}
