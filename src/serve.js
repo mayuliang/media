@@ -17,7 +17,7 @@ const
 
 const
 	// 配置文件地址
-	CONFIG_FILE = './config/media.conf',
+	CONFIG_FILE = '~/.kmedia-review-demo.conf',
 	// 数据库文件地址
 	SQLITE_FILE = './data/kmedia.db',
 	// 微信AppId和AppSecret
